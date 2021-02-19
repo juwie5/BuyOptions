@@ -1,0 +1,69 @@
+html ,body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+} 
+
+h1,h2,h3 {
+    color: #104A55;
+}
+
+.head {
+ text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.buycard{
+    box-shadow:0 4px 8px 0 rgba(114, 86, 86, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 50px;
+    display: inline-block;
+    /* margin: 75px 15px 15px; */
+    margin: 15px;
+    border: 2px solid rgba(114, 86, 86, 0.1);
+    border-radius: 5px;
+    transition-duration: 0.2s;
+
+}
+
+.buycard button {
+    background-color: #d8d9da;
+    border: none;
+    color: rgb(36, 34, 34);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+   border-radius: 3px;
+   transition-duration: 0.3s;
+
+}
+
+.buycard button:hover {
+    background-color: #104A55;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+.buycard:hover{
+border: 2px solid #104A55;
+}
+
+h3{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 15px;
+}
